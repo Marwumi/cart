@@ -11,7 +11,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<ProductCard />} />
+          <Route exact path="/order" element={<ProductCard />} />
           <Route path="/home" element={<Home/>} />
           <Route path="/cart" element={<CartPage />} />
         </Routes>

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 import {
   getCartTotal,
@@ -135,9 +136,9 @@ const CartPage = () => {
                     type="button"
                     className=" btn-lg btn-block checkout"
                     
-                  ><a href="/home" style={{color: 'gold'}}>
+                  ><Link to="/home" style={{color: 'gold'}}>
                     Go to checkout
-                    </a>  </button>
+                    </Link>  </button>
                 </div>
               </div>
             </div>

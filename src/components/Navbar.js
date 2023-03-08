@@ -26,7 +26,7 @@ export default function Navbar() {
           </Link>
         </MDBNavbarBrand>
         <span>
-          <Link to="/" style={{ color: "#fff" }}>
+          <Link to="/order" style={{ color: "#fff" }}>
             Place your Order{" "}
           </Link>
         </span>
